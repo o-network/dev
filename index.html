@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Open Network</title>
+  <meta name="description" content="Creating accessible software for the universe">
+
+  <meta name="theme-color" content="#81D4FA" />
+
+  <meta property="og:title" content="Open Network"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://open-network.dev/"/>
+  <meta property="og:site_name" content="Open Network"/>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      color: #000;
+      background: #FCFCFC;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      
+      padding: 44px;
+
+      text-align: center;
+
+    }
+
+    body, * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul, p {
+      max-width: 500px;
+    }
+
+    ul {
+      text-align: left;
+    }
+
+    form {
+      margin: 15px 0;
+      padding: 15px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      text-align: left;
+    }
+
+    form p {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+
+    form p label {
+      flex: 1.3;
+    }
+
+    form p label + * {
+      flex: 2;
+    }
+
+    form p:last-child {
+      justify-content: flex-end;
+    }
+
+    input, textarea {
+      font-size: 18px;
+      border: 1px solid #aaa;
+    }
+
+    button {
+      display: block;
+      height: 44px;
+      min-width: 44px;
+      background: none;
+      border: none;
+      appearance: none;
+      font-size: 18px;
+      border-radius: 4px;
+      background-color: #0057A3;
+      color: #FFFFFF;
+      padding: 0 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    Open Network
+  </h1>
+  <h2>
+    Mission
+  </h2>
+  <p>
+    To provide a user and machine friendly network focused around accessibility to achieve efficient and collaborative software and tools 
+  </p>
+  <h2>Agenda</h2>
+  <ul>
+    <li>Implement modular <a href="https://solid.mit.edu/" target=”_blank” rel=”noopener noreferrer”>Solid</a> compatible module that can be utilised universally utilising JavaScript</li>
+    <li>Implement <a href="https://github.com/o-network/http-copy-symlink" target=”_blank” rel=”noopener noreferrer”>HTTP COPY Symlink Module for FS Store</a></li>
+    <li>Investigate & Implement <em>execution</em> as a service to allow "serverless" applications to be accessible to a broader audience by providing ready made patterns</li>
+    <li>Implement logical state machines that can be computed across distributed nodes</li>
+    <li>Implement consumer friendly accessible HTML interface to explore RDF graphs and utilise said state machines</li>
+  </ul>
+  <p>
+    For any questions, or if you've got any time to help out, flick me a message by the contact form below (only the message is required, no need for an email or name), or you can email<a href="mailto:hello@open-network.dev" target=”_blank” rel=”noopener noreferrer”>hello@open-network.dev</a> 
+  </p>
+  <form id="contact" name="contact" data-netlify="true">
+    <p>
+      <label for="name">Your Name:</label>    <input type="text" name="name" id="name" />
+    </p>
+    <p>
+      <label for="email">Your Email:</label>   <input type="email" name="email" id="email" />
+    </p>
+    <p>
+      <label for="notes">Your Message:</label>  <textarea name="message" id="message" rows="5" required></textarea>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
+  <!-- <script type="module" defer src="/index.js"></script> -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "WebSite",
+      "name": "Open Network",
+      "url": "https://open-network.dev"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Axiom Applied Technologies and Development, Limited, TA Open Network",
+      "alternateName": "Open Network",
+      "url": "https://open-network.dev",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": {
+          "@type": "Country",
+          "name": "New Zealand"
+        }
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "hello@open-network.dev",
+          "url": "https://open-network.dev#contact",
+          "contactType": "customer service"
+        }
+      ]
+    }
+  </script>
+</body>
+</html>
