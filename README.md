@@ -6,7 +6,7 @@ To provide a user and machine friendly framework focused around accessibility to
 
 ## Agenda
 
-- Implement modular [Solid](https://solid.mit.edu/) compatible module that can be utilised universally utilising JavaScript
+- Implement modular [Solid](https://solid.mit.edu/) compatible module that can be utilised universally with JavaScript
 - Implement [HTTP COPY Symlink Module for FS Store](https://github.com/o-network/http-copy-symlink)
 - Investigate & Implement _execution_ as a service to allow "serverless" applications to be accessible to a broader audience by providing ready made patterns
 - Implement logical state machines that can be computed across distributed nodes
