@@ -5,10 +5,13 @@ self.addEventListener('install', function(event) {
    caches.open('open-network').then(function(cache) {
      return cache.addAll([
        '/',
+       '/index',
        '/index.html',
+       '/code-of-conduct',
+       '/code-of-conduct.html',
+       '/contributing',
+       '/contributing.html',
        '/manifest.json',
-       '/index.js',
-       '/instant.page.js',
        '//instant.page/1.2.2',
        '/styles.css',
      ]);
