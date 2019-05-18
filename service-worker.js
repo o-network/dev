@@ -10,9 +10,6 @@ self.addEventListener('install', function(event) {
        '/index.js',
        '/instant.page.js',
        '//instant.page/1.2.2',
-       '/service-worker-register.js',
-       '/service-worker-cache-polyfill.js',
-       '/service-worker.js',
        '/styles.css',
      ]);
    })
