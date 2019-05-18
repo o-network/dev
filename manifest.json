@@ -1,0 +1,10 @@
+{
+  "name": "Open Network",
+  "icons": [
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#81D4FA",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#81D4FA"
+}
