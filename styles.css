@@ -16,7 +16,6 @@ body {
   padding: 44px;
 
   text-align: center;
-
 }
 
 body, * {
@@ -74,4 +73,11 @@ button {
   background-color: #0057A3;
   color: #FFFFFF;
   padding: 0 15px;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #004684;
+
 }
