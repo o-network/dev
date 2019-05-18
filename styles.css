@@ -89,5 +89,8 @@ button {
 button:hover,
 button:focus {
   background-color: #004684;
+}
 
+a {
+  cursor: pointer;
 }
