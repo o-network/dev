@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /robots
+Disallow: /sitemap/staging.open-network.dev.sitemap
+Disallow: /.editorconfig
+Disallow: /.gitignore
+Disallow: /code-of-conduct.md
+Disallow: /contributing.md
+Disallow: /LICENCE
+Disallow: /README.md
+
+Sitemap: https://open-network.dev/sitemap.xml
