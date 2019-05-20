@@ -1,2 +1,12 @@
+# Documentation for this can be found here https://www.netlify.com/docs/redirects/
+
 https://musing-kilby-f46104.netlify.com/* https://open-network.dev/:splat 301!
 https://www.open-network.dev/* https://open-network.dev/:splat 301!
+
+https://open-network.dev/robots.txt /robots/open-network.dev 200!
+https://staging.open-network.dev/robots.txt /robots/staging.open-network.dev 200!
+
+https://open-network.dev/sitemap.xml /sitemap/open-network.dev.xml 200!
+
+# Will just return not found in general
+https://staging.open-network.dev/sitemap.xml /not-found 404!
